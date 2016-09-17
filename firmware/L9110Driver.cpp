@@ -54,10 +54,13 @@ bool L9110_Motor::run(uint8_t cmds) {
 }
 
 void L9110_Motor::setSpeed(uint8_t speed) {
+    // I want to be bale to set PWM values, not just on or off!
+    /*
     if (speed > 255)
         speed = 255;
     else if (speed < 0)
         speed = 0;
+     */
     currentspeed = speed;
     if ((runstate & FORWARD) == FORWARD) {
         analogWrite(motor_ia, currentspeed);
