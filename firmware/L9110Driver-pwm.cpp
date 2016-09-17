@@ -4,7 +4,7 @@
 // By - Scott Beasley 2015. Pubplic domain. Enjoy.
 
 #include "application.h"
-#include "L9110Driver.h"
+#include "L9110Driver-pwm.h"
 
 L9110_Motor::L9110_Motor(uint8_t ia_pin, uint8_t ib_pin) {
  	motor_ia = ia_pin;
