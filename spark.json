@@ -1,7 +1,7 @@
 {
-  "name": "L9110Driver",
+  "name": "L9110Driver PWM",
   "author": "Scott Beasley <scottbeasley@gmail.com>",
   "license": "GPL",
-  "version": "0.0.10",
-  "description": "L9110 Motor driver library for Particle boards"
+  "version": "0.0.11",
+  "description": "L9110 Motor driver library for Particle boards with PWM"
 }
