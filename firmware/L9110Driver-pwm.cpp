@@ -53,7 +53,7 @@ bool L9110_Motor::run(uint8_t cmds) {
 	return true;
 }
 
-void L9110_Motor::setSpeed(uint8_t speed) {
+void L9110_Motor::setSpeed(speed) {
     // I want to be bale to set PWM values, not just on or off!
     /*
     if (speed > 255)
