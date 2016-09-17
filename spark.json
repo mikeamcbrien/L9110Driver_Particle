@@ -1,5 +1,5 @@
 {
-  "name": "L9110Driver-PWM",
+  "name": "L9110Driver-pwm",
   "author": "Scott Beasley <scottbeasley@gmail.com>",
   "license": "GPL",
   "version": "0.0.11",
